@@ -1,0 +1,28 @@
+Two types of regular expressions
+
+1. 	Regular Expression--> [0-9]+, \\d
+2.  Cucumber Expression  (2017)
+
+Rules:
+1. Step def file will be generating cucumber expression by default.
+2. But you can use regular expression also in step def file.
+3. You can mix both regular and cucumber expression in step def file
+4. but you can not mix both expression in a step definition method.
+
+{String}, {int}, {Integer}, {float} --> cucumber expression
+
+Regular Expression
+([0-9]) -> Capture group -> 0 to 9 digits appear
+
+Quantifiers in Reg Exp: + * ? {n} no of occurances
+Def: how many time a character needs to be occured
+
+([0-9]+) -> 0 to 9 digits appear(Once or more) = 0 to 9 can appear once or more no of times
+([0-9]{4}) -> 0000, 9999, 1212, 3456, 1234, 8888 = 4 random digits can appear any no of times.
+([0-9]*) -> zero or more 
+([0-9]?) -> zero or once
+
+
+Short hand characters:
+\d  -> numeric digits
+(\d+)

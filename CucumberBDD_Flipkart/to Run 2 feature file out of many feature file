@@ -1,0 +1,35 @@
+
+
+@Login
+Feature: To Login to Email
+
+//Then feature name followed with scenario tag name
+@User
+
+   
+Scenario Outline: Navigate and logon to gmail application
+
+Given User launches gmail application
+When User updates emailID <emailID>
+And User updates pwd <pwd>    
+Then User clicks on Login Button
+
+
+Examples: 
+  | emailID    | pwd |
+  | a@gmail.com| 123 | 
+  
+  
+  
+ @Sendmail
+ Feature: To Send email
+
+ Scenario: compose a mail
+
+ //Write all Given when And Then
+ 
+ @RunWith(Cucumber.class)
+ @CucumberOptions(
+ features= "src/main/resources/publish", 
+ tags="@Login, @Sendemail",  
+ plugin = {"pretty"} )

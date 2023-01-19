@@ -1,0 +1,464 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Data driven testing with scenario outline and examples keyword."
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 333300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 549700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.launchBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 645500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.launchBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Billing Amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 362000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 360100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.closeBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 309700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 396052600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on billing amount",
+            "match": {
+              "location": "BillingStepDefinition.user_is_on_billing_amount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3100700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters billing amount 1000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 27
+                }
+              ],
+              "location": "BillingStepDefinition.user_enters_billing_amount(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters tax amount 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 23
+                }
+              ],
+              "location": "BillingStepDefinition.user_enters_tax_amount(double)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "BillingStepDefinition.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4467500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "it gives the final amount 1010",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1010",
+                  "offset": 26
+                }
+              ],
+              "location": "BillingStepDefinition.it_gives_the_final_amount(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 569500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 431200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.launchBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 183100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.launchBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Billing Amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 294800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 104800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.closeBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 819400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 69800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on billing amount",
+            "match": {
+              "location": "BillingStepDefinition.user_is_on_billing_amount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1792400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters billing amount 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 27
+                }
+              ],
+              "location": "BillingStepDefinition.user_enters_billing_amount(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters tax amount 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 23
+                }
+              ],
+              "location": "BillingStepDefinition.user_enters_tax_amount(double)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "BillingStepDefinition.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "it gives the final amount 520",
+            "match": {
+              "arguments": [
+                {
+                  "val": "520",
+                  "offset": 26
+                }
+              ],
+              "location": "BillingStepDefinition.it_gives_the_final_amount(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 327600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 151300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.launchBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 183600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.launchBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Billing Amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 497800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 102500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.closeBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 113400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on billing amount",
+            "match": {
+              "location": "BillingStepDefinition.user_is_on_billing_amount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters billing amount 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 27
+                }
+              ],
+              "location": "BillingStepDefinition.user_enters_billing_amount(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user enters tax amount 5.5",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "BillingStepDefinition.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "it gives the final amount 105.5",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Calculate billing amount",
+    "description": "",
+    "id": "calculate-billing-amount",
+    "keyword": "Feature",
+    "uri": "C:/CucumberWorkspace/CucumberBDD_Flipkart/src/test/java/features/Billing.feature"
+  }
+]
